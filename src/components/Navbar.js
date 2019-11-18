@@ -22,7 +22,7 @@ export default class Navbar extends Component {
 
                 </button>
             </div> 
-            <ul className={this.state.isOpen?"nav-links show-nav":"nav-link"}>
+            <ul className={this.state.isOpen ? "nav-links show-nav":"nav-link"}>
                 <li>
                     <Link to="/">Home</Link>
                 </li>
