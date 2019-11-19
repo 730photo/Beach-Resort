@@ -1,11 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react';
+import Hero from "../components/Hero";
 
-export default class Error extends Component {
-    render() {
-        return (
-            <div>
-                hello from Error Page
-            </div>
-        )
-    }
+export default function Error() {
+    return <Hero />;
 }
+
